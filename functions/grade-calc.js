@@ -1,8 +1,8 @@
 // students score, total possible score
 // 15/20 -> YOu got a C (75%)!
 
-let getGrade = function (studentScore, totalScore) {
-    let scorePercent = studentScore / totalScore * 100
+const getGrade = function (studentScore, totalScore) {
+    const scorePercent = studentScore / totalScore * 100
     let letterGrade = 'A'
     if (scorePercent<90 && scorePercent >=80){
         letterGrade = 'B'
